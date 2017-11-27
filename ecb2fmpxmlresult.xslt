@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Written and used in production since 2005
+Written and put in production 2005
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:eurofxref ="http://www.ecb.int/vocabulary/2002-08-01/eurofxref" exclude-result-prefixes="eurofxref">
 <xsl:output method='xml' version='1.0' encoding='iso-8859-1' indent='yes'/>
