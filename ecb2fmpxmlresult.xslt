@@ -11,9 +11,9 @@ Written and put in production 2005
     <PRODUCT BUILD="" NAME="" VERSION=""/>
     <DATABASE DATEFORMAT="M/d/yyyy" LAYOUT="" NAME="" RECORDS="1" TIMEFORMAT="h:mm:ss a"/>
     <METADATA>
-      <FIELD EMPTYOK="YES" MAXREPEAT="1" TYPE="TEXT" NAME="date" />
+      <FIELD EMPTYOK="YES" MAXREPEAT="1" TYPE="TEXT" NAME="date"      />
       <FIELD EMPTYOK="YES" MAXREPEAT="1" TYPE="TEXT" NAME="currency" />
-      <FIELD EMPTYOK="YES" MAXREPEAT="1" TYPE="TEXT" NAME="rate" />
+      <FIELD EMPTYOK="YES" MAXREPEAT="1" TYPE="TEXT" NAME="rate"    />
     </METADATA>
     <RESULTSET FOUND="{count(eurofxref:Cube/eurofxref:Cube/eurofxref:Cube)}">
       <xsl:apply-templates select="eurofxref:Cube/eurofxref:Cube/eurofxref:Cube"/>
